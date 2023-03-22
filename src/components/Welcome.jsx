@@ -3,18 +3,12 @@ import Image from "next/image";
 export const Welcome = () => {
   return (
     <div className="text-center">
-      <h1 className="text-center mt-5">Hello Rigo!</h1>
       <p>
-        <Image
-          src="/images/rigo-baby.jpeg"
-          alt="4geeks"
-          width={300}
-          height={254}
-        />
+        <Image src="/images/CLogo.png" alt="chealing" width={70} height={70} />
       </p>
-      <a href="#" className="btn btn-success">
-        If you see this green button... bootstrap is working...
-      </a>
+      
+<h1 className="text-center mt-5">COMING OON!</h1>
+      <p> A simple, supportive approach to mental health care</p>
     </div>
   );
 };

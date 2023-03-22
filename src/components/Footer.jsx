@@ -1,8 +1,9 @@
 export const Footer = () => {
   return (
-    <p className="text-center">
-      Made by <a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-      love!
-    </p>
+    <><a href="#" className="btn btn-success">
+      Follow us on social for updates
+    </a><p className="text-center">
+        Copyright 2023 - CHealing - All rights reserved
+      </p></>
   );
 };
